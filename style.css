@@ -1,18 +1,19 @@
-.dark-primary-color    { background: #7B1FA2; }
-.default-primary-color { background: #9C27B0; }
-.light-primary-color   { background: #E1BEE7; }
-.text-primary-color    { color: #FFFFFF; }
-.accent-color          { background: #FFC107; }
-.primary-text-color    { color: #212121; }
-.secondary-text-color  { color: #757575; }
-.divider-color         { border-color: #BDBDBD; }
-
+@import url('https://fonts.googleapis.com/css?family=Roboto|Mukta+Mahee');
 /* ---- global css ----- */
-html, body{
+html{
+	/* background-color: lightblue; */
+	font-family: 'Roboto';
+	margin: 0px;
+}
+
+body{
 	display: block;
-	text-align: center;
-	/* background: linear-gradient(-45deg, #f76585,  #831ee8); */
-	width: 100%;
+	text-align: left;
+	/* background: #f7658542; */
+	width: 70%;
+	margin: 0px auto;
+	padding: 0px;
+	/* padding: 16px */
 }
 
 .block-center{
@@ -20,122 +21,38 @@ html, body{
 	text-align: center;
 }
 
-.section{
-	padding: 24px;
+
+hr{
+	/* height: 10px; */
+	background-color: red;
+}
+.section, section, footer{
+	padding: 0px 24px;
 	margin: 0px;
+	/* background-color: hotpink; */
 }
 
-.size_150sq{
-	width: 150px;
-	height: 150px;
+h1, h2, h3, h4, h5, h6, p, div{
+	margin: 0px;
+	padding: 0px;
 }
 
-.size_300sq{
-	width: 300px;
-	height: 300px;
+/* declare some sizes*/
+/* ---square sizes ---- */
+/* section specific css */
+
+.center-all{
+	text-align: center;
 }
 
-.size_400x300{
-	width: 300px;
-	height: 400px;
-}
 
-.margin_top_48px{
-	margin-top: 48px;
-}
-
-.margin_top_16px{
-	margin-top: 16px;
+.image-about-me{
+	width: 64px;
+	height: 64px;
+	/* margin: 0px 50%; */
+	/* transform: translateX(-50%); */
 }
 
 .flex-container{
 	display: flex;
-	/* text-align: left; */
-	justify-content: center;
-	margin: auto;
-	flex-basis: 33%;
-	flex-flow: row wrap;
-	width: 100%
-}
-
-.card-flat{
-	display: inline-block;
-	background-color: rgb(165, 35, 35);
-	width: 300px;
-	height: 300px;
-	/* padding: 16px;  */
-	/* border-radius: 2px; */
-	/* box-shadow: 2px 2px 1px #777373; */
-	/* padding: 8px; */
-	margin: 16px;	
-}
-
-
-.card-flat > h2{
-	font-size: 24px;
-	line-height: 26px;
-	margin: 8px 8px;
-	/* padding: 0px; */
-	background-color: orchid;
-	padding: 16px 0px 4px 0px;
-}
-
-.card-flat > p{
-	font-size:14px;
-	line-height: 22px;
-	background-color: olive;
-	padding: 4px 8px;
-	margin: 8px 8px;
-}
-
-.card-flat-blog{
-	background-color: mistyrose;
-	width: 480px;
-	height: 410px;
-	margin: 16px;
-	text-align: left;
-}
-
-a {
-	text-decoration: none;
-}
-
-#section-about-me{
-	background-color: peru;
-	display: block;
-	/* padding: 16px 0px; */
-}
-
-#section-projects{
-	background-color: rgb(182, 116, 50);
-	display: block;
-	padding: 24px 0px 160px 0px;
-}
-
-#section-blogs{
-	background-color: rgb(216, 144, 73);
-	display: block;
-	padding: 24px 0px;
-}
-
-.card-flat-blog > h1{
-	font-size: 14px;
-	padding: 16px 16px 4px 16px;
-	margin: 0px;
-	letter-spacing: 2px;
-}
-
-.card-flat-blog > p{
-	font-size: 20px;
-	padding: 0px 16px;
-	font-weight: 600; 
-}
-
-.card-flat-blog > img{
-	margin: 8px 0px 0px 0px;
-}
-
-.size_480x360{
-	width: 480px;
-	height: 300px;
 }
