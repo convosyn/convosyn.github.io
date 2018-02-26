@@ -4,20 +4,24 @@
 	<title>My Profile</title>
 	<!-- <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"> -->
 	<!-- <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css"> -->
-	<!-- <link rel="stylesheet" type="text/css" href="style.css"> -->
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="stylesheet.css"> 
 	<!-- <script src="https://code.getmdl.io/1.3.0/material.min.js"></script> -->
 </head>
 <body>
 	<br/>
-	<section>
-		<h1><code> K A R T I K  V E R M A </code></h1>
+	<section id="section-name">
+		<h1 class="name">Kartik Verma</h1>
 	</section>
-	<br/>
-	<div id="section-about-me" class="section">
+	<!-- <hr /> -->
+	<section id="section-about-me">
 		<h1>About Me</h1>
-		<p>
+		<p class="overview">
 			A computer programmer by passion and profession. I love using deep learning for art and painting and solving computer vision problems with deep learning.
 		</p>
+		<br>
+		<p>My Interests are:</p>
 		<!-- display each as a card -->
 		<div class="flex-container center-all">
 		<!-- card 1 -->
@@ -29,6 +33,7 @@
 				<p>
 					An efficient tool to make machines learn without explicitly hard coding the rules. 
 				</p>
+				<hr />
 			</div>
 			<!-- card 2 -->
 			<div class="card-about-me">
@@ -38,6 +43,7 @@
 				<p>
 					Interested in front end design of UI and Image Editing ond designing
 				</p>
+				<hr />
 			</div>
 			<!-- card 3 -->
 			<div class="card-about-me">
@@ -47,22 +53,35 @@
 				<p>
 					Provides a platform to showcase your work and provide services to users. 
 				</p>
+				<hr />
 			</div>
 		</div>
-	</div>
-	
+	</section>
 	<section id="challenges">
 		<h1>Challenges</h1>
-		It list the challenges that I will try to make to myself and complete them within deadlines
+		<p class="challenge-description">It list the challenges that I will try to make to myself and complete them within deadlines<p>
+		<ol>
+			<li><i class="checked material-icons">done</i> Create a GUI for terminal. <a href="https://github.com/convosyn/gui-term"/ style="text-decoration: none;color: black; padding: 4px 8px; border-radius: 2px;">Link</a></li>
+		</ol>
+		<p>New Challenge coming Soon...</p>
 		<br /> <br />
-		<p>Challenge comming Soon...</p>
-		<br /> <br />
-		<p>To suggest a challenge(Only Programming) mail me at eches1297@gmail.com</p>
+		<p>To suggest a challenge(<u>Only Programming</u>) mail me at <span id="mail">eches1297@gmail.com</span></p>
 	</section>
+	<hr />
 	<br />
+	<section id="blogs">
+		<h1>My Blogs</h1>
+		<hr/>
+		<div class="blog-card">
+			<a href="#">
+				<h2>CNNs in Deep Learning</h2>
+				<p>Learn to create a simple convolution model in python for the famous mnist dataset and make your first submission on kaggle</p>
+			</a>
+		</div>
+		<hr/>
+	</section>
 	<footer>
-			<p>CSS coming soon...</p><br /><br />
-			<p>Copyright &copy; 2018. All rights reserved.</p>
+			<p>Kartik Verma. Copyright &copy; 2018. All rights reserved.</p>
 	</footer>
 </body>
 </html>
