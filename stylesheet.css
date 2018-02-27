@@ -128,3 +128,17 @@ footer{
 	color: white;
 	font-weight: 900;
 }
+
+p.dated{
+/* 	background-color: red; */
+	font-size: 16px;
+	letter-spacing: 2px;
+/* 	font-family: ; */
+/* 	font-weight: 800; */
+	margin: 4px 0px;
+	display: inline-block;
+}
+
+p.dated:hover, p.dated:focus{
+	background-color: transparent;
+}
